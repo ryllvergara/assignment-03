@@ -1,0 +1,70 @@
+<div id="signupFormContainer" class="mt-5">
+    <h2>Create an Account</h2>
+    <form id="signupForm">
+
+        <div class="mb-3">
+            <label for="firstName" class="form-label">First Name</label>
+            <input 
+                type="text" 
+                class="form-control rounded-pill"  
+                id="firstName" 
+                name="firstName" 
+                autocomplete="given-name" 
+                required
+            >
+        </div>
+
+        <div class="mb-3">
+            <label for="lastName" class="form-label">Last Name</label>
+            <input 
+                type="text" 
+                class="form-control rounded-pill" 
+                id="lastName" 
+                name="lastName" 
+                autocomplete="family-name" 
+                required
+            >
+        </div>
+
+        <div class="mb-3">
+            <label for="email" class="form-label">Email address</label>
+            <input 
+                type="email" 
+                class="form-control rounded-pill"  
+                id="email" 
+                name="email" 
+                autocomplete="email" 
+                required
+            >
+            <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+        </div>
+
+        <div class="mb-3">
+            <label for="password" class="form-label">Password</label>
+            <input 
+                type="password" 
+                class="form-control rounded-pill" 
+                id="password" 
+                name="password" 
+                autocomplete="new-password" 
+                required
+            >
+        </div>
+
+        <div class="mb-3">
+            <label for="repassword" class="form-label">Confirm Password</label>
+            <input 
+                type="password" 
+                class="form-control rounded-pill"  
+                id="repassword" 
+                name="repassword" 
+                autocomplete="new-password" 
+                required
+            >
+        </div>
+
+        <button type="button" class="btn btn-primary rounded-pill w-100" id="signupBtn">
+            Sign Up
+        </button>
+    </form>
+</div>
