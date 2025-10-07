@@ -1,6 +1,6 @@
 import { $ } from './common.js';
 import loginFn from './login/login.js';
-import signupFn from './login/signup.js';
+import signupFn from './signup/signup.js';
 
 // Function to handle fetching and insertion
 const loadTemplate = (path, callback) => {
